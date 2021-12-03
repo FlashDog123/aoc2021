@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "aoc",
   "main": "index.js",
-  "dependencies": {},
   "devDependencies": {
     "@types/node": "^16.11.11"
   },
