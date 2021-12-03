@@ -60,7 +60,7 @@ const compareCO2AndOxygen = (mode: boolean, valueOne: number, valueTwo: number):
 }
 
 const calcCO2OrOxygen = (input: string[], CO2: boolean) => {
-    let output = input.slice();
+    let output = [...input];
 
     for (let i = 0; i < input[0].length && output.length > 1; i++) {
         let oneCount = 0;
